@@ -1,3 +1,4 @@
+
 body {
  font-family: Arial, sans-serif;
  background-color: #f0f0f0;
@@ -23,6 +24,11 @@ header nav ul li {
 header nav a {
  color: #fff;
  text-decoration: none;
+}
+
+header nav a:hover {
+ color: #ddd; /* Cambia el color al pasar el cursor */
+ text-decoration: underline; /* Añade un subrayado */
 }
 
 main {
